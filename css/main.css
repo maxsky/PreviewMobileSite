@@ -1,0 +1,107 @@
+body {
+    margin: 0
+}
+
+em {
+    font-style: italic
+}
+
+ul {
+    list-style: disc outside
+}
+
+body, html {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin-bottom: 60px;
+    line-height: 100%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    background-color: #fff
+}
+
+.deviceTitle {
+    font-size: 14px
+}
+
+#devices .deviceWrap, .deviceTitle {
+    min-width: 468px
+}
+
+#devices {
+    text-align: center;
+    overflow: hidden
+}
+
+.deviceWrap {
+    width: 100%;
+    background: no-repeat top center;
+    margin: 60px 0 20px;
+    position: relative
+}
+
+#devices .device {
+    margin: 0 auto;
+    position: relative
+}
+
+#devices .device .flashingBottom, #devices .device .flashingTop {
+    position: absolute;
+    left: 0;
+    width: 100%
+}
+
+#devices .device .flashingTop {
+    top: 0;
+    padding-top: 4px
+}
+
+#devices .device .flashingBottom {
+    bottom: 0
+}
+
+#devices iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #d1d1d1
+}
+
+.iphone-x-portrait {
+    background-image: url(../images/iphone-x-portrait.png);
+    padding: 27px 0
+}
+
+.iphone-x-portrait span.time {
+    color: #979797;
+    position: absolute;
+    left: 8px;
+    display: block;
+    top: 17px;
+    font-family: SF UI Text, helvetica, arial, sans-serif;
+    width: 5pc;
+    text-align: center
+}
+
+#devices .iphone-x-portrait iframe {
+    border: none
+}
+
+.iphone-6-portrait {
+    background-image: url(../images/iphone-6-portrait.png);
+    padding: 103px 0 107px
+}
+
+.iphone-6-plus-portrait {
+    background-image: url(../images/iphone-6-plus-portrait.png);
+    padding: 103px 0 107px
+}
+
+span.time {
+    font-family: helvetica, arial, sans-serif;
+    color: #fff;
+    font-size: 9pt
+}
